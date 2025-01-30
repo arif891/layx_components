@@ -1,0 +1,39 @@
+{
+    "accordion": {
+        "name": "Accordion",
+        "version": 1,
+        "path": "accordion",
+        "localpath": "components/accordion",
+        "files": [
+            {
+                "name": "accordion.html",
+                "path": "accordion.html"
+            },
+            {
+                "name": "accordion.css",
+                "path": "accordion.css"
+            },
+            {
+                "name": "accordion.js",
+                "path": "accordion.js"
+            }
+        ],
+        "dependencies": [
+            {
+                "css": [
+                    "main/base/variable.css",
+                    "main/base/base.css",
+                    "main/typography/typography.css",
+                    "components/button/button.css",
+                    "components/accordion/accordion.css"
+                ],
+                "js": [
+                    {
+                        "name": "Accordion",
+                        "path": "./components/accordion/accordion.js"
+                    }
+                ]
+            }
+        ]
+    }
+}
