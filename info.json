@@ -33,5 +33,546 @@
                 }
             ]
         }
+    },
+    "alert": {
+        "name": "Alert",
+        "version": 1,
+        "path": "alert",
+        "localpath": "components/alert",
+        "files": [
+            {
+                "name": "alert.html",
+                "path": "alert.html"
+            },
+            {
+                "name": "alert.css",
+                "path": "alert.css"
+            },
+            {
+                "name": "alert.js",
+                "path": "alert.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/alert/alert.css"
+            ],
+            "js": [
+                {
+                    "name": "Alert",
+                    "path": "./components/alert/alert.js"
+                }
+            ]
+        }
+    },
+    "breadcrumb": {
+        "name": "Breadcrumb",
+        "version": 1,
+        "path": "breadcrumb",
+        "localpath": "components/breadcrumb",
+        "files": [
+            {
+                "name": "breadcrumb.html",
+                "path": "breadcrumb.html"
+            },
+            {
+                "name": "breadcrumb.css",
+                "path": "breadcrumb.css"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/breadcrumb/breadcrumb.css"
+            ]
+        }
+    },
+    "button": {
+        "name": "Button",
+        "version": 1,
+        "path": "button",
+        "localpath": "components/button",
+        "files": [
+            {
+                "name": "button.html",
+                "path": "button.html"
+            },
+            {
+                "name": "button.css",
+                "path": "button.css"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/button/button.css"
+            ]
+        }
+    },
+    "card": {
+        "name": "Card",
+        "version": 1,
+        "path": "card",
+        "localpath": "components/card",
+        "files": [
+            {
+                "name": "card.html",
+                "path": "card.html"
+            },
+            {
+                "name": "card.css",
+                "path": "card.css"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/button/button.css",
+                "components/card/card.css"
+            ]
+        }
+    },
+    "carousel": {
+        "name": "Carousel",
+        "version": 1,
+        "path": "carousel",
+        "localpath": "components/carousel",
+        "files": [
+            {
+                "name": "carousel.html",
+                "path": "carousel.html"
+            },
+            {
+                "name": "carousel.css",
+                "path": "carousel.css"
+            },
+            {
+                "name": "carousel.js",
+                "path": "carousel.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/carousel/carousel.css"
+            ],
+            "js": [
+                {
+                    "name": "Carousel",
+                    "path": "./components/carousel/carousel.js"
+                }
+            ]
+        }
+    },
+    "dialog": {
+        "name": "Dialog",
+        "version": 1,
+        "path": "dialog",
+        "localpath": "components/dialog",
+        "files": [
+            {
+                "name": "dialog.html",
+                "path": "dialog.html"
+            },
+            {
+                "name": "dialog.css",
+                "path": "dialog.css"
+            },
+            {
+                "name": "dialog.js",
+                "path": "dialog.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/button/button.css",
+                "components/dialog/dialog.css"
+            ],
+            "js": [
+                {
+                    "name": "Dialog",
+                    "path": "./components/dialog/dialog.js"
+                }
+            ]
+        }
+    },
+    "draggable": {
+        "name": "Draggable",
+        "version": 1,
+        "path": "draggable",
+        "localpath": "components/draggable",
+        "files": [
+            {
+                "name": "draggable.html",
+                "path": "draggable.html"
+            },
+            {
+                "name": "draggable.css",
+                "path": "draggable.css"
+            },
+            {
+                "name": "draggable.js",
+                "path": "draggable.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "components/draggable/draggable.css"
+            ],
+            "js": [
+                {
+                    "name": "Draggable",
+                    "path": "./components/draggable/draggable.js"
+                }
+            ]
+        }
+    },
+    "footer": {
+        "name": "Footer",
+        "version": 1,
+        "path": "footer",
+        "localpath": "components/footer",
+        "files": [
+            {
+                "name": "footer.html",
+                "path": "footer.html"
+            },
+            {
+                "name": "footer.css",
+                "path": "footer.css"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/footer/footer.css"
+            ]
+        }
+    },
+    "form": {
+        "name": "Form",
+        "version": 1,
+        "path": "form",
+        "localpath": "components/form",
+        "files": [
+            {
+                "name": "form.html",
+                "path": "form.html"
+            },
+            {
+                "name": "form.css",
+                "path": "form.css"
+            },
+            {
+                "name": "form.js",
+                "path": "form.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/form/form.css"
+            ],
+            "js": [
+                {
+                    "name": "Form",
+                    "path": "./components/form/form.js"
+                }
+            ]
+        }
+    },
+    "media": {
+        "name": "Media",
+        "version": 1,
+        "path": "media",
+        "localpath": "components/media",
+        "files": [
+            {
+                "name": "media.html",
+                "path": "media.html"
+            },
+            {
+                "name": "media.css",
+                "path": "media.css"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/media/media.css"
+            ]
+        }
+    },
+    "navbar": {
+        "name": "Navbar",
+        "version": 1,
+        "path": "navbar",
+        "localpath": "components/navbar",
+        "files": [
+            {
+                "name": "navbar.html",
+                "path": "navbar.html"
+            },
+            {
+                "name": "navbar.css",
+                "path": "navbar.css"
+            },
+            {
+                "name": "navbar.js",
+                "path": "navbar.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/navbar/navbar.css"
+            ],
+            "js": [
+                {
+                    "name": "Navbar",
+                    "path": "./components/navbar/navbar.js"
+                }
+            ]
+        }
+    },
+    "pagination": {
+        "name": "Pagination",
+        "version": 1,
+        "path": "pagination",
+        "localpath": "components/pagination",
+        "files": [
+            {
+                "name": "pagination.html",
+                "path": "pagination.html"
+            },
+            {
+                "name": "pagination.css",
+                "path": "pagination.css"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/pagination/pagination.css"
+            ]
+        }
+    },
+    "popover": {
+        "name": "Popover",
+        "version": 1,
+        "path": "popover",
+        "localpath": "components/popover",
+        "files": [
+            {
+                "name": "popover.html",
+                "path": "popover.html"
+            },
+            {
+                "name": "popover.css",
+                "path": "popover.css"
+            },
+            {
+                "name": "popover.js",
+                "path": "popover.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/popover/popover.css"
+            ],
+            "js": [
+                {
+                    "name": "Popover",
+                    "path": "./components/popover/popover.js"
+                }
+            ]
+        }
+    },
+    "section": {
+        "name": "Section",
+        "version": 1,
+        "path": "section",
+        "localpath": "components/section",
+        "files": [
+            {
+                "name": "section.html",
+                "path": "section.html"
+            },
+            {
+                "name": "section.css",
+                "path": "section.css"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/section/section.css"
+            ]
+        }
+    },
+    "sheet": {
+        "name": "Sheet",
+        "version": 1,
+        "path": "sheet",
+        "localpath": "components/sheet",
+        "files": [
+            {
+                "name": "sheet.html",
+                "path": "sheet.html"
+            },
+            {
+                "name": "sheet.css",
+                "path": "sheet.css"
+            },
+            {
+                "name": "sheet.js",
+                "path": "sheet.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/sheet/sheet.css"
+            ],
+            "js": [
+                {
+                    "name": "Sheet",
+                    "path": "./components/sheet/sheet.js"
+                }
+            ]
+        }
+    },
+    "tab": {
+        "name": "Tab",
+        "version": 1,
+        "path": "tab",
+        "localpath": "components/tab",
+        "files": [
+            {
+                "name": "tab.html",
+                "path": "tab.html"
+            },
+            {
+                "name": "tab.css",
+                "path": "tab.css"
+            },
+            {
+                "name": "tab.js",
+                "path": "tab.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/tab/tab.css"
+            ],
+            "js": [
+                {
+                    "name": "Tab",
+                    "path": "./components/tab/tab.js"
+                }
+            ]
+        }
+    },
+    "tooltip": {
+        "name": "Tooltip",
+        "version": 1,
+        "path": "tooltip",
+        "localpath": "components/tooltip",
+        "files": [
+            {
+                "name": "tooltip.html",
+                "path": "tooltip.html"
+            },
+            {
+                "name": "tooltip.css",
+                "path": "tooltip.css"
+            },
+            {
+                "name": "tooltip.js",
+                "path": "tooltip.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/tooltip/tooltip.css"
+            ],
+            "js": [
+                {
+                    "name": "Tooltip",
+                    "path": "./components/tooltip/tooltip.js"
+                }
+            ]
+        }
+    },
+    "window": {
+        "name": "Window",
+        "version": 1,
+        "path": "window",
+        "localpath": "components/window",
+        "files": [
+            {
+                "name": "window.html",
+                "path": "window.html"
+            },
+            {
+                "name": "window.css",
+                "path": "window.css"
+            },
+            {
+                "name": "window.js",
+                "path": "window.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/window/window.css"
+            ],
+            "js": [
+                {
+                    "name": "Window",
+                    "path": "./components/window/window.js"
+                }
+            ]
+        }
     }
 }
