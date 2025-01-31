@@ -843,7 +843,7 @@
             ],
             "js": [
                 {
-                    "name": "Smooth Scroll",
+                    "name": "SmoothScroll",
                     "path": "./others/smooth_scroll/smooth_scroll.js"
                 }
             ]
@@ -877,7 +877,7 @@
             ],
             "js": [
                 {
-                    "name": "Syntax Highlight",
+                    "name": "SyntaxHighlight",
                     "path": "./others/syntax_highlight/syntax_highlight.js"
                 }
             ]
