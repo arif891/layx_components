@@ -574,5 +574,39 @@
                 }
             ]
         }
+    },
+    "ai": {
+        "name": "AI",
+        "version": 1,
+        "path": "others/ai",
+        "localpath": "others/ai",
+        "files": [
+            {
+                "name": "ai.html",
+                "path": "ai.html"
+            },
+            {
+                "name": "ai.css",
+                "path": "ai.css"
+            },
+            {
+                "name": "ai.js",
+                "path": "ai.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "components/ai/ai.css"
+            ],
+            "js": [
+                {
+                    "name": "AI",
+                    "path": "./components/ai/ai.js"
+                }
+            ]
+        }
     }
 }
