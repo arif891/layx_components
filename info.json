@@ -575,6 +575,10 @@
             ]
         }
     },
+
+
+
+
     "ai": {
         "name": "AI",
         "version": 1,
@@ -605,6 +609,344 @@
                 {
                     "name": "AI",
                     "path": "./components/ai/ai.js"
+                }
+            ]
+        }
+    },
+    "background": {
+        "name": "Background",
+        "version": 1,
+        "path": "others/background",
+        "localpath": "others/background",
+        "files": [
+            {
+                "name": "background.html",
+                "path": "background.html"
+            },
+            {
+                "name": "background.css",
+                "path": "background.css"
+            },
+            {
+                "name": "background.js",
+                "path": "background.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "others/background/background.css"
+            ],
+            "js": [
+                {
+                    "name": "Background",
+                    "path": "./others/background/background.js"
+                }
+            ]
+        }
+    },
+    "dynamic_render": {
+        "name": "Dynamic Render",
+        "version": 1,
+        "path": "others/dynamic_render",
+        "localpath": "others/dynamic_render",
+        "files": [
+            {
+                "name": "dynamic_render.html",
+                "path": "dynamic_render.html"
+            },
+            {
+                "name": "dynamic_render.js",
+                "path": "dynamic_render.js"
+            },
+            {
+                "name": "assets/default_user.webp",
+                "path": "assets/default_user.webp"
+            },
+            {
+                "name": "assets/user.webp",
+                "path": "assets/user.webp"
+            }    
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "others/dynamic_render/dynamic_render.css"
+            ],
+            "js": [
+                {
+                    "name": "DynamicRender",
+                    "path": "./others/dynamic_render/dynamic_render.js"
+                }
+            ]
+        }
+    },
+    "icon": {
+        "name": "Icon",
+        "version": 1,
+        "path": "others/icon",
+        "localpath": "others/icon",
+        "files": [
+            {
+                "name": "icon.html",
+                "path": "icon.html"
+            },
+            {
+                "name": "icon.css",
+                "path": "icon.css"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "others/icon/icon.css"
+            ]
+        }
+    },
+    "partial_render": {
+        "name": "Partial Render",
+        "version": 1,
+        "path": "others/partial_render",
+        "localpath": "others/partial_render",
+        "files": [
+            {
+                "name": "partial_render.html",
+                "path": "partial_render.html"
+            },
+            {
+                "name": "partial_render.js",
+                "path": "partial_render.js"
+            },
+            {
+                "name": "assets/default_user.webp",
+                "path": "assets/default_user.webp"
+            },
+            {
+                "name": "assets/user.webp",
+                "path": "assets/user.webp"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "others/partial_render/partial_render.css"
+            ],
+            "js": [
+                {
+                    "name": "Partial Render",
+                    "path": "./others/partial_render/partial_render.js"
+                }
+            ]
+        }
+    },
+    "pwa": {
+        "name": "PWA",
+        "version": 1,
+        "path": "others/pwa",
+        "localpath": "others/pwa",
+        "files": [
+            {
+                "name": "pwa.html",
+                "path": "pwa.html"
+            },
+            {
+                "name": "pwa.css",
+                "path": "pwa.css"
+            },
+            {
+                "name": "pwa.js",
+                "path": "pwa.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "others/pwa/pwa.css"
+            ],
+            "js": [
+                {
+                    "name": "PWA",
+                    "path": "./others/pwa/pwa.js"
+                }
+            ]
+        }
+    },
+    "scroll_driven_animation": {
+        "name": "Scroll Driven Animation",
+        "version": 1,
+        "path": "others/scroll_driven_animation",
+        "localpath": "others/scroll_driven_animation",
+        "files": [
+            {
+                "name": "scroll_driven_animation.html",
+                "path": "scroll_driven_animation.html"
+            },
+            {
+                "name": "scroll_driven_animation.css",
+                "path": "scroll_driven_animation.css"
+            },
+            {
+                "name": "scroll_driven_animation.js",
+                "path": "scroll_driven_animation.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "others/scroll_driven_animation/scroll_driven_animation.css"
+            ],
+            "js": [
+                {
+                    "name": "Scroll Driven Animation",
+                    "path": "./others/scroll_driven_animation/scroll_driven_animation.js"
+                }
+            ]
+        }
+    },
+    "smooth_scroll": {
+        "name": "Smooth Scroll",
+        "version": 1,
+        "path": "others/smooth_scroll",
+        "localpath": "others/smooth_scroll",
+        "files": [
+            {
+                "name": "smooth_scroll.html",
+                "path": "smooth_scroll.html"
+            },
+            {
+                "name": "smooth_scroll.css",
+                "path": "smooth_scroll.css"
+            },
+            {
+                "name": "smooth_scroll.js",
+                "path": "smooth_scroll.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "others/smooth_scroll/smooth_scroll.css"
+            ],
+            "js": [
+                {
+                    "name": "Smooth Scroll",
+                    "path": "./others/smooth_scroll/smooth_scroll.js"
+                }
+            ]
+        }
+    },
+    "syntax_highlight": {
+        "name": "Syntax Highlight",
+        "version": 1,
+        "path": "others/syntax_highlight",
+        "localpath": "others/syntax_highlight",
+        "files": [
+            {
+                "name": "syntax_highlight.html",
+                "path": "syntax_highlight.html"
+            },
+            {
+                "name": "syntax_highlight.css",
+                "path": "syntax_highlight.css"
+            },
+            {
+                "name": "syntax_highlight.js",
+                "path": "syntax_highlight.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "others/syntax_highlight/syntax_highlight.css"
+            ],
+            "js": [
+                {
+                    "name": "Syntax Highlight",
+                    "path": "./others/syntax_highlight/syntax_highlight.js"
+                }
+            ]
+        }
+    },
+    "theme": {
+        "name": "Theme",
+        "version": 1,
+        "path": "others/theme",
+        "localpath": "others/theme",
+        "files": [
+            {
+                "name": "theme.html",
+                "path": "theme.html"
+            },
+            {
+                "name": "theme.css",
+                "path": "theme.css"
+            },
+            {
+                "name": "theme.js",
+                "path": "theme.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "others/theme/theme.css"
+            ],
+            "js": [
+                {
+                    "name": "Theme",
+                    "path": "./others/theme/theme.js"
+                }
+            ]
+        }
+    },
+    "view_transition": {
+        "name": "View Transition",
+        "version": 1,
+        "path": "others/view_transition",
+        "localpath": "others/view_transition",
+        "files": [
+            {
+                "name": "view_transition.html",
+                "path": "view_transition.html"
+            },
+            {
+                "name": "view_transition.css",
+                "path": "view_transition.css"
+            },
+            {
+                "name": "view_transition.js",
+                "path": "view_transition.js"
+            }
+        ],
+        "dependencies": {
+            "css": [
+                "main/base/variable.css",
+                "main/base/base.css",
+                "main/typography/typography.css",
+                "others/view_transition/view_transition.css"
+            ],
+            "js": [
+                {
+                    "name": "View Transition",
+                    "path": "./others/view_transition/view_transition.js"
                 }
             ]
         }
